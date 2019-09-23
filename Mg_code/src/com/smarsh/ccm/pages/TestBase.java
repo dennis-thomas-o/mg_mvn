@@ -97,9 +97,9 @@ public class TestBase {
 			driver = new ChromeDriver();
 			driver.manage().window().maximize();
 			
-
+			
 		} else if (browser.equals("firefox")) {
-			System.setProperty("webdriver.gecko.driver", "D:\\Automation\\MobileGuard\\libraries\\geckodriver.exe");
+			System.setProperty("webdriver.gecko.driver", "C:\\Users\\CKumar\\eclipse-workspace\\github\\mg_mvn\\Mg_code\\libraries");
 			System.setProperty(FirefoxDriver.SystemProperty.DRIVER_USE_MARIONETTE,"true");
 			System.setProperty(FirefoxDriver.SystemProperty.BROWSER_LOGFILE,"/dev/null");
 			
