@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [NetGuardIntegration And APIs]">
+  <parameter name="password" value="facetime"/>
+  <parameter name="copyright" value="© 2012–2019 Smarsh Inc., MobileGuard, All Rights Reserved. v3.6"/>
+  <parameter name="browser" value="firefox"/>
+  <parameter name="version" value="v3.6"/>
+  <parameter name="url" value="https://qa.mobileguard.com/"/>
+  <parameter name="username" value="chandan.kumar@smarsh.com"/>
+  <test thread-count="5" name="Employees Tests(failed)">
+    <classes>
+      <class name="com.smarsh.ccm.testNetGuardIntegration.MGAllNetworkCarrierProvision">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="C2312625_VerizonProvision"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- com.smarsh.ccm.testNetGuardIntegration.MGAllNetworkCarrierProvision -->
+    </classes>
+  </test> <!-- Employees Tests(failed) -->
+</suite> <!-- Failed suite [NetGuardIntegration And APIs] -->

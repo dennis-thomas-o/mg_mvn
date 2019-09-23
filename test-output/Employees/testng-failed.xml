@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Employees]">
+  <parameter name="password" value="facetime"/>
+  <parameter name="copyright" value="© 2012–2019 Smarsh Inc., MobileGuard, All Rights Reserved. v3.7"/>
+  <parameter name="dbpassword" value="bxuY8Adcwe@$2k"/>
+  <parameter name="browser" value="firefox"/>
+  <parameter name="dbusername" value="sagar.ranjan"/>
+  <parameter name="version" value="v3.7"/>
+  <parameter name="url" value="https://qa.mobileguard.com/"/>
+  <parameter name="dburl" value="jdbc:sqlserver://qa.mobileguard.com;database=qa_mobileguard_com"/>
+  <parameter name="username" value="Sagar.Ranjan@smarsh.com"/>
+  <test thread-count="5" name="Employees Tests(failed)">
+    <classes>
+      <class name="com.smarsh.ccm.testEmployees.MGBasicTests">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="C2128596_TetsLogin"/>
+          <include name="C6059217_verifyRelNot"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.smarsh.ccm.testEmployees.MGBasicTests -->
+    </classes>
+  </test> <!-- Employees Tests(failed) -->
+</suite> <!-- Failed suite [Employees] -->

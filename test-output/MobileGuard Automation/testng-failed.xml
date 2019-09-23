@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [MobileGuard Automation]">
+  <parameter name="password" value="facetime"/>
+  <parameter name="copyright" value="© 2012–2019 Smarsh Inc., MobileGuard, All Rights Reserved. v3.6"/>
+  <parameter name="browser" value="firefox"/>
+  <parameter name="version" value="v3.6"/>
+  <parameter name="url" value="https://qa.mobileguard.com/"/>
+  <parameter name="username" value="chandan.kumar@smarsh.com"/>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.smarsh.ccm.tests.MGBasicTests">
+        <methods>
+          <include name="verifyCancleBtnEditEmp"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- com.smarsh.ccm.tests.MGBasicTests -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [MobileGuard Automation] -->

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MobileGuard Automation">
+	<parameter name = "browser" value = "firefox" />
+	<parameter name = "url" value = "https://qa.mobileguard.com/" />
+	<parameter name = "username" value = "Sagar.Ranjan@smarsh.com" />
+	<parameter name = "password" value = "facetime" />
+	<parameter name = "copyright" value = "© 2012–2019 Smarsh Inc., MobileGuard, All Rights Reserved. v3.7" />
+	<parameter name = "version" value = "v3.7" />
+	<parameter name="dburl" value="jdbc:sqlserver://qa.mobileguard.com;database=qa_mobileguard_com"/>
+    <parameter name="dbusername" value="sagar.ranjan" />
+    <parameter name="dbpassword" value="bxuY8Adcwe@$2k"/>		
+
+	<suite-files>
+	<!-- 	<suite-file path=".\suiteXmls\NetGuardIntegrationAPIs.xml" />  -->
+	<suite-file path=".\suiteXmls\Employees.xml" />
+		
+		
+		
+	</suite-files>
+</suite>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Employees">
+	
+	 <test name="Employees Tests" parallel="false">
+		<classes>
+	   
+	    <class name="com.smarsh.ccm.testEmployees.MGBasicTests"/>
+     <!-- 
+     <class name="com.smarsh.ccm.testEmployees.MGHoldingQueueTests"/>
+     <class name="com.smarsh.ccm.testEmployees.MGEmployeeViewTests"/>
+     
+     <class name="com.smarsh.ccm.testEmployees.MGUploadEmployee"/>
+     <class name="com.smarsh.ccm.testEmployees.MGEditEmployees"/>
+    
+     <class name="com.smarsh.ccm.testEmployees.MGNegativeTests"/> 
+      <class name = "com.smarsh.ccm.testEmployees.MGNegativeTestsPostLogin" />   
+          -->
+      
+		</classes>
+	</test> 
+	
+</suite>
+

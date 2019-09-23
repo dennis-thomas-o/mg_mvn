@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Employees]">
+  <parameter name="password" value="facetime"/>
+  <parameter name="copyright" value="© 2012–2019 Smarsh Inc., MobileGuard, All Rights Reserved. v3.7"/>
+  <parameter name="dbpassword" value="bxuY8Adcwe@$2k"/>
+  <parameter name="browser" value="firefox"/>
+  <parameter name="dbusername" value="sagar.ranjan"/>
+  <parameter name="version" value="v3.7"/>
+  <parameter name="url" value="https://qa.mobileguard.com/"/>
+  <parameter name="dburl" value="jdbc:sqlserver://qa.mobileguard.com;database=qa_mobileguard_com"/>
+  <parameter name="username" value="Sagar.Ranjan@smarsh.com"/>
+  <test thread-count="5" verbose="0" name="Employees Tests(failed)">
+    <classes>
+      <class name="com.smarsh.ccm.testEmployees.MGBasicTests">
+        <methods>
+          <include name="C2128686_verifySettingsNavBar"/>
+          <include name="C2128748_editAddedEmp"/>
+          <include name="C2128748_updateEmpEmail"/>
+          <include name="C2128784_verifyEmpListPagination"/>
+          <include name="beforeSuite"/>
+          <include name="C2128740_verifyEmpPageUI"/>
+          <include name="tearDown"/>
+          <include name="C2128686_verifyReportsNavBar"/>
+          <include name="C5890693_verify3PLinksinFooter"/>
+          <include name="afterSuite"/>
+          <include name="C2128741_addEmployee" invocation-numbers="0 1 2"/>
+          <include name="C2128687_navigateToEmployees"/>
+          <include name="searchEmp"/>
+        </methods>
+      </class> <!-- com.smarsh.ccm.testEmployees.MGBasicTests -->
+    </classes>
+  </test> <!-- Employees Tests(failed) -->
+</suite> <!-- Failed suite [Employees] -->

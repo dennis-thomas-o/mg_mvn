@@ -1,0 +1,72 @@
+2019-08-12 13:10:20 INFO  MGAllNetworkCarrierProvision:34 - Started Hutchison carrier Provision
+2019-08-12 13:12:23 INFO  EmployeesPage:963 - Click on Add new device for Hutchison ,thenumber added is1908121000
+2019-08-12 13:14:17 INFO  MGAllNetworkCarrierProvision:40 - Succefully completed Hutchison carrier Provision
+2019-08-12 15:28:54 INFO  MGAllNetworkCarrierProvision:34 - Started Hutchison carrier Provision
+2019-08-12 15:29:07 INFO  EmployeesPage:963 - Click on Add new device for Hutchison ,thenumber added is1908122839
+2019-08-12 15:29:16 INFO  MGAllNetworkCarrierProvision:40 - Succefully completed Hutchison carrier Provision
+2019-08-12 15:29:16 INFO  MGAllNetworkCarrierProvision:46 - Started Rogers carrier Provision
+2019-08-12 15:29:30 INFO  EmployeesPage:963 - Click on Add new device for Rogers ,thenumber added is1908122839
+2019-08-12 15:29:39 INFO  MGAllNetworkCarrierProvision:52 - Succefully completed Rogers carrier Provision
+2019-08-12 15:29:39 INFO  MGAllNetworkCarrierProvision:58 - Started T-Mobile carrier Provision
+2019-08-12 15:29:48 INFO  EmployeesPage:963 - Click on Add new device for T-Mobile ,thenumber added is1908122839
+2019-08-12 15:29:57 INFO  MGAllNetworkCarrierProvision:64 - Succefully completed T-Mobile carrier Provision
+2019-08-12 15:29:57 INFO  MGAllNetworkCarrierProvision:70 - Started Truphone carrier Provision
+2019-08-12 15:30:09 INFO  EmployeesPage:963 - Click on Add new device for Truphone ,thenumber added is1908122839
+2019-08-12 15:30:19 INFO  MGAllNetworkCarrierProvision:76 - Succefully completed Truphone carrier Provision
+2019-08-12 15:30:19 INFO  MGAllNetworkCarrierProvision:82 - Started US Cellular carrier Provision
+2019-08-12 15:30:31 INFO  EmployeesPage:963 - Click on Add new device for US Cellular ,thenumber added is1908122839
+2019-08-12 15:30:41 INFO  MGAllNetworkCarrierProvision:88 - Succefully completed US Cellular carrier Provision
+2019-08-12 15:30:41 INFO  MGAllNetworkCarrierProvision:94 - Started Verizon carrier Provision
+2019-08-12 15:31:24 INFO  EmployeesPage:978 - Exceptionorg.openqa.selenium.NoSuchElementException: Unable to locate element: //span[contains(text(),'Device')]//..//..//input
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: '7490-FH8MVP2', ip: '192.168.112.44', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 68.0.1, capabilities: {desiredCapabilities: {acceptInsecureCerts: true, browserName: firefox}}, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190717172542, moz:headless: false, moz:processID: 50596, moz:profile: C:\Users\CKumar\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 8ffbf542-09b6-423a-b377-09e94f2368dd
+*** Element info: {Using=xpath, value=//span[contains(text(),'Device')]//..//..//input}
+2019-08-12 15:31:24 INFO  MGAllNetworkCarrierProvision:107 - Started Vodafone carrier Provision
+2019-08-12 15:31:38 INFO  EmployeesPage:963 - Click on Add new device for Vodafone ,thenumber added is1908122839
+2019-08-12 15:31:47 INFO  MGAllNetworkCarrierProvision:113 - Succefully completed Vodafone carrier Provision
+2019-08-12 16:21:35 INFO  MGAllNetworkCarrierProvision:33 - Started Hutchison carrier Provision
+2019-08-12 16:21:49 INFO  EmployeesPage:966 - Click on Add new device for Hutchison ,thenumber added is1908122149
+2019-08-12 16:21:58 INFO  MGAllNetworkCarrierProvision:39 - Succefully completed Hutchison carrier Provision
+2019-08-12 16:21:58 INFO  MGAllNetworkCarrierProvision:45 - Started Rogers carrier Provision
+2019-08-12 16:22:09 INFO  EmployeesPage:966 - Click on Add new device for Rogers ,thenumber added is1908122208
+2019-08-12 16:22:18 INFO  MGAllNetworkCarrierProvision:51 - Succefully completed Rogers carrier Provision
+2019-08-12 16:22:18 INFO  MGAllNetworkCarrierProvision:57 - Started T-Mobile carrier Provision
+2019-08-12 16:22:27 INFO  EmployeesPage:966 - Click on Add new device for T-Mobile ,thenumber added is1908122226
+2019-08-12 16:22:36 INFO  MGAllNetworkCarrierProvision:63 - Succefully completed T-Mobile carrier Provision
+2019-08-12 16:22:36 INFO  MGAllNetworkCarrierProvision:69 - Started Truphone carrier Provision
+2019-08-12 16:22:46 INFO  EmployeesPage:966 - Click on Add new device for Truphone ,thenumber added is1908122245
+2019-08-12 16:22:55 INFO  MGAllNetworkCarrierProvision:75 - Succefully completed Truphone carrier Provision
+2019-08-12 16:22:55 INFO  MGAllNetworkCarrierProvision:81 - Started US Cellular carrier Provision
+2019-08-12 16:23:06 INFO  EmployeesPage:966 - Click on Add new device for US Cellular ,thenumber added is1908122305
+2019-08-12 16:23:14 INFO  MGAllNetworkCarrierProvision:87 - Succefully completed US Cellular carrier Provision
+2019-08-12 16:23:14 INFO  MGAllNetworkCarrierProvision:93 - Started Verizon carrier Provision
+2019-08-12 16:23:53 INFO  EmployeesPage:981 - Exceptionorg.openqa.selenium.NoSuchElementException: Unable to locate element: //span[contains(text(),'Device')]//..//..//input
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: '7490-FH8MVP2', ip: '192.168.112.44', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 68.0.1, capabilities: {desiredCapabilities: {acceptInsecureCerts: true, browserName: firefox}}, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190717172542, moz:headless: false, moz:processID: 43116, moz:profile: C:\Users\CKumar\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a6720de2-bf19-4fcf-bdc9-e80cec121401
+*** Element info: {Using=xpath, value=//span[contains(text(),'Device')]//..//..//input}
+2019-08-12 16:23:53 INFO  MGAllNetworkCarrierProvision:106 - Started Vodafone carrier Provision
+2019-08-12 16:24:07 INFO  EmployeesPage:966 - Click on Add new device for Vodafone ,thenumber added is1908122407
+2019-08-12 16:24:16 INFO  MGAllNetworkCarrierProvision:112 - Succefully completed Vodafone carrier Provision
+2019-08-12 20:24:48 INFO  MGAllNetworkCarrierProvision:139 - Started VerfiyTruphoneInDowEmpFile
+2019-08-12 20:25:02 INFO  MGAllNetworkCarrierProvision:146 - Succefully completed VerfiyTruphoneInDowEmpFile
+2019-08-12 22:22:15 INFO  MGAllNetworkCarrierProvision:109 - Started Verizon carrier Provision
+2019-08-12 22:22:24 INFO  EmployeesPage:973 - Click on Add new device for Verizon ,thenumber added is1908122222
+2019-08-12 22:22:51 INFO  EmployeesPage:988 - Exceptionorg.openqa.selenium.NoSuchElementException: Unable to locate element: //select[@id='MainContent_EntForm_NewStatus']//option[contains(text(),'Provisioned')]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: '7490-FH8MVP2', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 68.0.1, capabilities: {desiredCapabilities: {acceptInsecureCerts: true, browserName: firefox}}, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190717172542, moz:headless: false, moz:processID: 54220, moz:profile: C:\Users\CKumar\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: deaa2341-6f93-4b3d-ad96-27fbda98e343
+*** Element info: {Using=xpath, value=//select[@id='MainContent_EntForm_NewStatus']//option[contains(text(),'Provisioned')]}
+2019-08-12 22:54:59 INFO  MGAllNetworkCarrierProvision:109 - Started Verizon carrier Provision
+2019-08-12 22:55:12 INFO  EmployeesPage:982 - Click on Add new device for Verizon ,thenumber added is1908125510
+2019-08-12 22:55:23 INFO  MGAllNetworkCarrierProvision:115 - Succefully completed Verizon carrier Provision
